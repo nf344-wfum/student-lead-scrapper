@@ -1,0 +1,24 @@
+{
+  "name": "keystone-student-lead-harvester",
+  "version": "1.0.0",
+  "description": "Keystone Overseas — Prospective Student Lead & Social Group Harvester Suite",
+  "main": "scrapers/student_group_lead_harvester.js",
+  "scripts": {
+    "start": "node scrapers/student_group_lead_harvester.js --mode benchmark",
+    "harvest:benchmark": "node scrapers/student_group_lead_harvester.js --mode benchmark",
+    "harvest:file": "node scrapers/student_group_lead_harvester.js --mode file",
+    "test": "node scrapers/test_lead_harvester.js"
+  },
+  "keywords": [
+    "student-leads",
+    "facebook-group-scraper",
+    "lead-qualification",
+    "bangladesh-study-abroad",
+    "keystone-overseas",
+    "south-korea",
+    "cyprus",
+    "malaysia"
+  ],
+  "author": "Hasibul Munim <munimm247@gmail.com>",
+  "license": "UNLICENSED"
+}
